@@ -3,6 +3,7 @@ name: Backend CD - Developer Branch
 on:
   workflow_run:
     workflows: ["Backend CI - Developer Branch"]
+    branches: [developer]
     types:
       - completed
 
